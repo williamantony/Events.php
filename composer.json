@@ -1,0 +1,16 @@
+{
+    "name": "wa/events",
+    "description": "A PHP class library to model Events. (Calendar Events)",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "wa/parser": "dev-main",
+        "ramsey/uuid": "4.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "WA\\Events\\": "src/"
+        }
+    }
+}
